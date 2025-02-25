@@ -1,0 +1,125 @@
+{
+    "buffs": [
+      {
+        "name": "猫的短期催眠术",
+        "category": "猫饭",
+        "description": "+15攻击力",
+        "effect": {
+          "type": "BuffAttackBoost",
+          "multiplier": 0.0,
+          "addition": 15
+        }
+      },
+      {
+        "name": "怪力粉尘",
+        "category": "消耗品", 
+        "description": "+10攻击力",
+        "effect": {
+          "type": "BuffAttackBoost",
+          "multiplier": 0.0,
+          "addition": 10
+        }
+      },
+      {
+        "name": "怪力种子",
+        "category": "消耗品", 
+        "description": "+10攻击力",
+        "effect": {
+          "type": "BuffAttackBoost",
+          "multiplier": 0.0,
+          "addition": 10
+        }
+      },
+      {
+        "name": "鬼人药G",
+        "category": "消耗品", 
+        "description": "+7攻击力",
+        "effect": {
+          "type": "BuffAttackBoost",
+          "multiplier": 0.0,
+          "addition": 7
+        }
+      },
+      {
+        "name": "鬼人药",
+        "category": "消耗品", 
+        "description": "+5攻击力",
+        "effect": {
+          "type": "BuffAttackBoost",
+          "multiplier": 0.0,
+          "addition": 5
+        }
+      },
+      {
+        "name": "力量护符",
+        "category": "道具",
+        "description": "+10攻击力",
+        "effect": {
+          "type": "BuffAttackBoost",
+          "multiplier": 0.0,
+          "addition": 10
+        }
+      },
+      {
+        "name": "力量之爪",
+        "category": "道具",
+        "description": "+5攻击力",
+        "effect": {
+          "type": "BuffAttackBoost",
+          "multiplier": 0.0,
+          "addition": 5
+        }
+      },
+      {
+        "name": "战吼Ⅰ",
+        "category": "队友增益",
+        "description": "+10攻击力",
+        "effect": {
+          "type": "BuffAttackBoost",
+          "multiplier": 0.0,
+          "addition": 10
+        }
+      },
+      {
+        "name": "战吼Ⅱ",
+        "category": "队友增益",
+        "description": "+20攻击力",
+        "effect": {
+          "type": "BuffAttackBoost",
+          "multiplier": 0.0,
+          "addition": 20
+        }
+      },
+      {
+        "name": "激励",
+        "category": "队友增益",
+        "description": "+10攻击力",
+        "effect": {
+          "type": "BuffAttackBoost",
+          "multiplier": 0.0,
+          "addition": 10
+        }
+      },
+      {
+        "name": "蛮勇的餐桌Ⅰ",
+        "category": "消耗品", 
+        "description": "+15攻击力",
+        "effect": {
+          "type": "BuffAttackBoost",
+          "multiplier": 0.0,
+          "addition": 15
+        }
+      },
+      {
+        "name": "蛮勇的餐桌Ⅱ",
+        "category": "消耗品", 
+        "description": "+25攻击力",
+        "effect": {
+          "type": "BuffAttackBoost",
+          "multiplier": 0.0,
+          "addition": 25
+        }
+      }
+    ]
+  }
+  

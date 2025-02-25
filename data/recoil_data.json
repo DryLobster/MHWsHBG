@@ -1,0 +1,29 @@
+{
+    "recoil_levels": [
+      {
+        "id": 0,
+        "name": "小",
+        "normal": 0.9,
+        "rapid": 1.1
+      },
+      {
+        "id": 1,
+        "name": "中",
+        "normal": 1.0,
+        "rapid": 1.33
+      },
+      {
+        "id": 2,
+        "name": "大",
+        "normal": 1.1,
+        "rapid": 1.5
+      },
+      {
+        "id": 3,
+        "name": "特大",
+        "normal": 1.8,
+        "rapid": 1.5
+      }
+    ]
+  }
+  

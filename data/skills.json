@@ -1,0 +1,462 @@
+{
+    "skills": [
+      {
+        "name": "攻击",
+        "max_level": 5,
+        "effects": {
+          "1": {
+            "type": "AttackBoost",
+            "multiplier": 0.0,
+            "addition": 3
+          },
+          "2": {
+            "type": "AttackBoost",
+            "multiplier": 0.0,
+            "addition": 5
+          },
+          "3": {
+            "type": "AttackBoost",
+            "multiplier": 0.0,
+            "addition": 7
+          },
+          "4": {
+            "type": "AttackBoost",
+            "multiplier": 0.02,
+            "addition": 8
+          },
+          "5": {
+            "type": "AttackBoost",
+            "multiplier": 0.04,
+            "addition": 9
+          }
+        }
+      },
+      {
+        "name": "看破",
+        "max_level": 5,
+        "effects": {
+          "1": {"type": "CriticalEye", "affinity": 4},
+          "2": {"type": "CriticalEye", "affinity": 8},
+          "3": {"type": "CriticalEye", "affinity": 12},
+          "4": {"type": "CriticalEye", "affinity": 16},
+          "5": {"type": "CriticalEye", "affinity": 20}
+        }
+      },
+      {
+        "name": "超会心",
+        "max_level": 5,
+        "effects": {
+          "1": {"type": "CriticalBoost", "value": 0.03},
+          "2": {"type": "CriticalBoost", "value": 0.06},
+          "3": {"type": "CriticalBoost", "value": 0.09},
+          "4": {"type": "CriticalBoost", "value": 0.12},
+          "5": {"type": "CriticalBoost", "value": 0.15}
+        }
+      },
+      {
+        "name": "属性会心",
+        "max_level": 3,
+        "effects": {
+          "1": {"type": "CriticalElement", "value": 0.05},
+          "2": {"type": "CriticalElement", "value": 0.1},
+          "3": {"type": "CriticalElement", "value": 0.15}
+        }
+      },
+      {
+        "name": "属性强化",
+        "max_level": 3,
+        "effects": {
+          "1": {"type": "ElementBoost", "multiplier": 0.05, "addition": 3},
+          "2": {"type": "ElementBoost", "multiplier": 0.10, "addition": 6},
+          "3": {"type": "ElementBoost", "multiplier": 0.20, "addition": 10}
+        }
+      },
+      {
+        "name": "弱点特效",
+        "max_level": 5,
+        "effects": {
+          "1": {"type": "WeaknessExploit", "phys_affinity": 5, "scar_affinity": 3},
+          "2": {"type": "WeaknessExploit", "phys_affinity": 10, "scar_affinity": 5},
+          "3": {"type": "WeaknessExploit", "phys_affinity": 15, "scar_affinity": 10},
+          "4": {"type": "WeaknessExploit", "phys_affinity": 20, "scar_affinity": 15},
+          "5": {"type": "WeaknessExploit", "phys_affinity": 30, "scar_affinity": 20}
+        }
+      },
+      {
+        "name": "挑战者",
+        "max_level": 5,
+        "effects": {
+          "1": {"type": "Agitator", "attack_add": 4, "affinity_add": 3},
+          "2": {"type": "Agitator", "attack_add": 8, "affinity_add": 5},
+          "3": {"type": "Agitator", "attack_add": 12, "affinity_add": 7},
+          "4": {"type": "Agitator", "attack_add": 16, "affinity_add": 10},
+          "5": {"type": "Agitator", "attack_add": 20, "affinity_add": 15}
+        }
+      },
+      {
+        "name": "力量解放",
+        "max_level": 5,
+        "has_coverage": true,
+        "effects": {
+          "1": {"type": "CriticalEye", "affinity": 10},
+          "2": {"type": "CriticalEye", "affinity": 20},
+          "3": {"type": "CriticalEye", "affinity": 30},
+          "4": {"type": "CriticalEye", "affinity": 40},
+          "5": {"type": "CriticalEye", "affinity": 50}
+        }
+      },
+      {
+        "name": "巧击",
+        "max_level": 5,
+        "has_coverage": true,
+        "effects": {
+          "1": { "type": "AttackBoost", "multiplier": 0.0, "addition": 10 },
+          "2": { "type": "AttackBoost", "multiplier": 0.0, "addition": 15 },
+          "3": { "type": "AttackBoost", "multiplier": 0.0, "addition": 20 },
+          "4": { "type": "AttackBoost", "multiplier": 0.0, "addition": 25 },
+          "5": { "type": "AttackBoost", "multiplier": 0.0, "addition": 30 }
+        }
+      },
+      {
+        "name": "攻势",
+        "max_level": 5,
+        "has_coverage": true,
+        "effects": {
+          "1": {"type": "AttackCrit", "attack_add": 6, "affinity_add": 0},
+          "2": {"type": "AttackCrit", "attack_add": 8, "affinity_add": 5},
+          "3": {"type": "AttackCrit", "attack_add": 10, "affinity_add": 10},
+          "4": {"type": "AttackCrit", "attack_add": 12, "affinity_add": 15},
+          "5": {"type": "AttackCrit", "attack_add": 15, "affinity_add": 20}
+        }
+      },
+      {
+        "name": "无伤",
+        "max_level": 5,
+        "has_coverage": true,
+        "effects": {
+          "1": { "type": "AttackBoost", "multiplier": 0.0, "addition": 3 },
+          "2": { "type": "AttackBoost", "multiplier": 0.0, "addition": 6 },
+          "3": { "type": "AttackBoost", "multiplier": 0.0, "addition": 10 },
+          "4": { "type": "AttackBoost", "multiplier": 0.0, "addition": 15 },
+          "5": { "type": "AttackBoost", "multiplier": 0.0, "addition": 20 }
+        }
+      },
+      {
+        "name": "逆袭",
+        "max_level": 3,
+        "has_coverage": true,
+        "effects": {
+          "1": { "type": "AttackBoost", "multiplier": 0.0, "addition": 10 },
+          "2": { "type": "AttackBoost", "multiplier": 0.0, "addition": 15 },
+          "3": { "type": "AttackBoost", "multiplier": 0.0, "addition": 25 }
+        }
+      },
+      {
+        "name": "怨恨",
+        "max_level": 5,
+        "has_coverage": true,
+        "effects": {
+          "1": { "type": "AttackBoost", "multiplier": 0.0, "addition": 5 },
+          "2": { "type": "AttackBoost", "multiplier": 0.0, "addition": 10 },
+          "3": { "type": "AttackBoost", "multiplier": 0.0, "addition": 15 },
+          "4": { "type": "AttackBoost", "multiplier": 0.0, "addition": 20 },
+          "5": { "type": "AttackBoost", "multiplier": 0.0, "addition": 25 }
+        }
+      },
+      {
+        "name": "连击",
+        "max_level": 5,
+        "has_coverage": true,
+        "effects": {
+          "1": { "type": "Burst", "attack_boost": 6, "element_boost": 4 },
+          "2": { "type": "Burst", "attack_boost": 7, "element_boost": 5 },
+          "3": { "type": "Burst", "attack_boost": 8, "element_boost": 6 },
+          "4": { "type": "Burst", "attack_boost": 9, "element_boost": 7 },
+          "5": { "type": "Burst", "attack_boost": 10, "element_boost": 8 }
+        }
+      },
+      {
+        "name": "锁刃刺击",
+        "max_level": 5,
+        "effects": {
+          "1": { "type": "ChainBlade", "addtional_damage": 100 },
+          "2": { "type": "ChainBlade", "addtional_damage": 120 },
+          "3": { "type": "ChainBlade", "addtional_damage": 140 },
+          "4": { "type": "ChainBlade", "addtional_damage": 170 },
+          "5": { "type": "ChainBlade", "addtional_damage": 200 }
+        }
+      },
+      {
+        "name": "火场怪力",
+        "max_level": 5,
+        "has_coverage": true,
+        "effects": {
+          "1": { "type": "AttackBoost", "multiplier": 0.0, "addition": 0 },
+          "2": { "type": "AttackBoost", "multiplier": 0.05, "addition": 0 },
+          "3": { "type": "AttackBoost", "multiplier": 0.05, "addition": 0 },
+          "4": { "type": "AttackBoost", "multiplier": 0.1, "addition": 0 },
+          "5": { "type": "AttackBoost", "multiplier": 0.3, "addition": 0 }
+        }
+      },
+      {
+        "name": "急袭",
+        "max_level": 3,
+        "has_coverage": true,
+        "effects": {
+          "1": { "type": "AttackBoost", "multiplier": 0.05, "addition": 0 },
+          "2": { "type": "AttackBoost", "multiplier": 0.1, "addition": 0 },
+          "3": { "type": "AttackBoost", "multiplier": 0.15, "addition": 0 }
+        }
+      },
+      {
+        "name": "属性吸收",
+        "max_level": 3,
+        "has_coverage": true,
+        "effects": {
+          "1": {"type": "ElementBoost", "multiplier": 0, "addition": 5},
+          "2": {"type": "ElementBoost", "multiplier": 0, "addition": 10},
+          "3": {"type": "ElementBoost", "multiplier": 0, "addition": 15}
+        }
+      },
+      {
+        "name": "攻击守势",
+        "max_level": 3,
+        "has_coverage": true,
+        "effects": {
+          "1": { "type": "IndependentBoost", "physical_boost": 1.05, "element_boost": 1.05 },
+          "2": { "type": "IndependentBoost", "physical_boost": 1.1, "element_boost": 1.1 },
+          "3": { "type": "IndependentBoost", "physical_boost": 1.15, "element_boost": 1.15 }
+        }
+      },
+      {
+        "name": "通常弹强化",
+        "max_level": 1,
+        "effects": {
+          "1": {
+            "type": "AmmoTypeBoost",
+            "ammo_type": "normal",
+            "physical_boost": 1.05,
+            "element_boost": 1.05
+          }
+        }
+      },
+      {
+        "name": "贯通弹强化",
+        "max_level": 1,
+        "effects": {
+          "1": {
+            "type": "AmmoTypeBoost",
+            "ammo_type": "piercing",
+            "physical_boost": 1.05,
+            "element_boost": 1.05
+          }
+        }
+      },
+      {
+        "name": "散弹强化",
+        "max_level": 1,
+        "effects": {
+          "1": {
+            "type": "AmmoTypeBoost",
+            "ammo_type": "spread",
+            "physical_boost": 1.05,
+            "element_boost": 1.05
+          }
+        }
+      },
+      {
+        "name": "速射强化",
+        "max_level": 1,
+        "effects": {
+          "1": {"type": "None"}
+        }
+      },
+      {
+        "name": "特殊射击强化",
+        "max_level": 2,
+        "effects": {
+          "1": {
+            "type": "AmmoTypeBoost",
+            "ammo_type": "spread",
+            "physical_boost": 1.1,
+            "element_boost": 1.1
+          },
+          "2": {
+            "type": "AmmoTypeBoost",
+            "ammo_type": "special",
+            "physical_boost": 1.2,
+            "element_boost": 1.2
+          }
+        }
+      },
+      {
+        "name": "精神抖擞",
+        "max_level": 3,
+        "has_coverage": true,
+        "effects": {
+          "1": {"type": "CriticalEye", "affinity": 10},
+          "2": {"type": "CriticalEye", "affinity": 20},
+          "3": {"type": "CriticalEye", "affinity": 30}
+        }
+      },
+      {
+        "name": "炮术",
+        "max_level": 3,
+        "effects": {
+          "1": {
+            "type": "Artillery",
+            "physical_boost": 1.1,
+            "element_boost": 1.1
+          },
+          "2": {
+            "type": "Artillery",
+            "physical_boost": 1.2,
+            "element_boost": 1.2
+          },
+          "3": {
+            "type": "Artillery",
+            "physical_boost": 1.3,
+            "element_boost": 1.3
+          }
+        }
+      },
+      {
+        "name": "首发迅击",
+        "max_level": 3,
+        "effects": {
+          "1": {"type": "FirstShot", "reload_boost": 1, "physical_boost": 1.1, "element_boost": 1.1 },
+          "2": {"type": "FirstShot", "reload_boost": 2, "physical_boost": 1.15, "element_boost": 1.15 },
+          "3": {"type": "FirstShot", "reload_boost": 3, "physical_boost": 1.3, "element_boost": 1.3 }
+        }
+      },
+      {
+        "name": "强四射击",
+        "max_level": 3,
+        "effects": {
+          "1": {"type": "AssaultShot", "attack_boost": 8, "affinity_boost": 3, "amazing_boost": 105 },
+          "2": {"type": "AssaultShot", "attack_boost": 10, "affinity_boost": 6, "amazing_boost": 105 },
+          "3": {"type": "AssaultShot", "attack_boost": 12, "affinity_boost": 10, "amazing_boost": 105 }
+        }
+      },
+      {
+        "name": "防御性能",
+        "max_level": 3,
+        "effects": {
+          "1": {"type": "None"},
+          "2": {"type": "None"},
+          "3": {"type": "None"}
+        }
+      },
+      {
+        "name": "防御强化",
+        "max_level": 3,
+        "effects": {
+          "1": {"type": "None"},
+          "2": {"type": "None"},
+          "3": {"type": "None"}
+        }
+      },
+      {
+        "name": "击晕术",
+        "max_level": 3,
+        "effects": {
+          "1": {"type": "None"},
+          "2": {"type": "None"},
+          "3": {"type": "None"}
+        }
+      },
+      {
+        "name": "弹道强化",
+        "max_level": 3,
+        "effects": {
+          "1": {"type": "None"},
+          "2": {"type": "None"},
+          "3": {"type": "None"}
+        }
+      },
+      {
+        "name": "集中",
+        "max_level": 3,
+        "effects": {
+          "1": {"type": "None"},
+          "2": {"type": "None"},
+          "3": {"type": "None"}
+        }
+      },
+      {
+        "name": "毒伤害强化",
+        "max_level": 1,
+        "effects": {
+          "1": {"type": "None"}
+        }
+      },
+      {
+        "name": "无我之境",
+        "max_level": 3,
+        "effects": {
+          "1": {"type": "Muga", "affinity": 3},
+          "2": {"type": "Muga", "affinity": 6},
+          "3": {"type": "Muga", "affinity": 10}
+        }
+      },
+      {
+        "name": "滑行强化",
+        "max_level": 1,
+        "has_coverage": true,
+        "effects": {
+          "1": {"type": "CriticalEye", "affinity": 30}
+        }
+      },
+      {
+        "name": "死里逃生",
+        "max_level": 1,
+        "has_coverage": true,
+        "effects": {
+          "1": { "type": "AttackBoost", "multiplier": 0, "addition": 10 }
+        }
+      },
+      {
+        "name": "大力士",
+        "max_level": 2,
+        "has_coverage": true,
+        "effects": {
+          "1": { "type": "AttackBoost", "multiplier": 0.0, "addition": 10 },
+          "2": { "type": "AttackBoost", "multiplier": 0.0, "addition": 25 }
+        }
+      },
+      {
+        "name": "灼热化",
+        "max_level": 2,
+        "effects": {
+          "1": {"type": "None"},
+          "2": {"type": "None"}
+        }
+      },
+      {
+        "name": "连击强化",
+        "max_level": 2,
+        "effects": {
+          "1": {"type": "None"},
+          "2": {"type": "None"}
+        }
+      },
+      {
+        "name": "束缚反攻",
+        "max_level": 2,
+        "has_coverage": true,
+        "effects": {
+          "1": { "type": "AttackBoost", "multiplier": 0.0, "addition": 25 },
+          "2": { "type": "AttackBoost", "multiplier": 0.0, "addition": 50 }
+        }
+      },
+      {
+        "name": "黑蚀一体",
+        "max_level": 2,
+        "effects": {
+          "1": {"type": "Virus", "attack_1": 0, "attack_2": 0},
+          "2": {"type": "Virus", "attack_1": 10, "attack_2": 15}
+        }
+      }
+    ]
+  }
+  

@@ -1,0 +1,823 @@
+{
+    "gems": [
+        {
+            "name": "守势·属强珠【3】",
+            "type": "weapon",
+            "level": 3,
+            "skill_1": "攻击守势",
+            "skill_1_level": 3,
+            "skill_2": "属性强化",
+            "skill_2_level": 1
+        },
+        {
+            "name": "守势·铁壁珠【3】",
+            "type": "weapon",
+            "level": 3,
+            "skill_1": "攻击守势",
+            "skill_1_level": 3,
+            "skill_2": "防御性能",
+            "skill_2_level": 1
+        },
+        {
+            "name": "属会·属强珠【3】",
+            "type": "weapon",
+            "level": 3,
+            "skill_1": "属性会心",
+            "skill_1_level": 3,
+            "skill_2": "属性强化",
+            "skill_2_level": 1
+        },
+        {
+            "name": "初弹·属强珠【3】",
+            "type": "weapon",
+            "level": 3,
+            "skill_1": "首发迅击",
+            "skill_1_level": 3,
+            "skill_2": "属性强化",
+            "skill_2_level": 1
+        },
+        {
+            "name": "初弹·射法珠【3】",
+            "type": "weapon",
+            "level": 3,
+            "skill_1": "首发迅击",
+            "skill_1_level": 3,
+            "skill_2": "弹道强化",
+            "skill_2_level": 1
+        },
+        {
+            "name": "初弹·铁壁珠【3】",
+            "type": "weapon",
+            "level": 3,
+            "skill_1": "首发迅击",
+            "skill_1_level": 3,
+            "skill_2": "防御性能",
+            "skill_2_level": 1
+        },
+        {
+            "name": "积弹·属强珠【3】",
+            "type": "weapon",
+            "level": 3,
+            "skill_1": "强四射击",
+            "skill_1_level": 3,
+            "skill_2": "属性强化",
+            "skill_2_level": 1
+        },
+        {
+            "name": "积弹·射法珠【3】",
+            "type": "weapon",
+            "level": 3,
+            "skill_1": "强四射击",
+            "skill_1_level": 3,
+            "skill_2": "弹道强化",
+            "skill_2_level": 1
+        },
+        {
+            "name": "积弹·铁壁珠【3】",
+            "type": "weapon",
+            "level": 3,
+            "skill_1": "强四射击",
+            "skill_1_level": 3,
+            "skill_2": "防御性能",
+            "skill_2_level": 1
+        },
+        {
+            "name": "集中·属强珠【3】",
+            "type": "weapon",
+            "level": 3,
+            "skill_1": "集中",
+            "skill_1_level": 3,
+            "skill_2": "属性强化",
+            "skill_2_level": 1
+        },
+        {
+            "name": "集中·射法珠【3】",
+            "type": "weapon",
+            "level": 3,
+            "skill_1": "集中",
+            "skill_1_level": 3,
+            "skill_2": "弹道强化",
+            "skill_2_level": 1
+        },
+        {
+            "name": "集中·击晕珠【3】",
+            "type": "weapon",
+            "level": 3,
+            "skill_1": "集中",
+            "skill_1_level": 3,
+            "skill_2": "击晕术",
+            "skill_2_level": 1
+        },
+        {
+            "name": "属强·守势珠【3】",
+            "type": "weapon",
+            "level": 3,
+            "skill_1": "属性强化",
+            "skill_1_level": 3,
+            "skill_2": "攻击守势",
+            "skill_2_level": 1
+        },
+        {
+            "name": "属强·属会珠【3】",
+            "type": "weapon",
+            "level": 3,
+            "skill_1": "属性强化",
+            "skill_1_level": 3,
+            "skill_2": "属性会心",
+            "skill_2_level": 1
+        },
+        {
+            "name": "属强·射法珠【3】",
+            "type": "weapon",
+            "level": 3,
+            "skill_1": "属性强化",
+            "skill_1_level": 3,
+            "skill_2": "弹道强化",
+            "skill_2_level": 1
+        },
+        {
+            "name": "属强·初弹珠【3】",
+            "type": "weapon",
+            "level": 3,
+            "skill_1": "属性强化",
+            "skill_1_level": 3,
+            "skill_2": "首发迅击",
+            "skill_2_level": 1
+        },
+        {
+            "name": "属强·积弹【3】",
+            "type": "weapon",
+            "level": 3,
+            "skill_1": "属性强化",
+            "skill_1_level": 3,
+            "skill_2": "强四射击",
+            "skill_2_level": 1
+        },
+        {
+            "name": "属强·集中珠【3】",
+            "type": "weapon",
+            "level": 3,
+            "skill_1": "属性强化",
+            "skill_1_level": 3,
+            "skill_2": "集中",
+            "skill_2_level": 1
+        },
+        {
+            "name": "属强·击晕珠【3】",
+            "type": "weapon",
+            "level": 3,
+            "skill_1": "属性强化",
+            "skill_1_level": 3,
+            "skill_2": "击晕术",
+            "skill_2_level": 1
+        },
+        {
+            "name": "属强·铁壁珠【3】",
+            "type": "weapon",
+            "level": 3,
+            "skill_1": "属性强化",
+            "skill_1_level": 3,
+            "skill_2": "防御性能",
+            "skill_2_level": 1
+        },
+        {
+            "name": "属强·强壁珠【3】",
+            "type": "weapon",
+            "level": 3,
+            "skill_1": "属性强化",
+            "skill_1_level": 3,
+            "skill_2": "防御强化",
+            "skill_2_level": 1
+        },
+        {
+            "name": "属会·射法珠【3】",
+            "type": "weapon",
+            "level": 3,
+            "skill_1": "属性会心",
+            "skill_1_level": 3,
+            "skill_2": "弹道强化",
+            "skill_2_level": 1
+        },
+        {
+            "name": "属会·击晕珠【3】",
+            "type": "weapon",
+            "level": 3,
+            "skill_1": "属性会心",
+            "skill_1_level": 3,
+            "skill_2": "击晕术",
+            "skill_2_level": 1
+        },
+        {
+            "name": "属会·铁壁珠【3】",
+            "type": "weapon",
+            "level": 3,
+            "skill_1": "属性会心",
+            "skill_1_level": 3,
+            "skill_2": "防御性能",
+            "skill_2_level": 1
+        },
+        {
+            "name": "强毒·攻击珠【3】",
+            "type": "weapon",
+            "level": 3,
+            "skill_1": "毒伤害强化",
+            "skill_1_level": 1,
+            "skill_2": "攻击",
+            "skill_2_level": 1
+        },
+        {
+            "name": "强毒·看破珠【3】",
+            "type": "weapon",
+            "level": 3,
+            "skill_1": "毒伤害强化",
+            "skill_1_level": 1,
+            "skill_2": "看破",
+            "skill_2_level": 1
+        },
+        {
+            "name": "强毒·射法珠【3】",
+            "type": "weapon",
+            "level": 3,
+            "skill_1": "毒伤害强化",
+            "skill_1_level": 1,
+            "skill_2": "弹道强化",
+            "skill_2_level": 1
+        },
+        {
+            "name": "强毒·击晕珠【3】",
+            "type": "weapon",
+            "level": 3,
+            "skill_1": "毒伤害强化",
+            "skill_1_level": 1,
+            "skill_2": "击晕术",
+            "skill_2_level": 1
+        },
+        {
+            "name": "强毒·铁壁珠【3】",
+            "type": "weapon",
+            "level": 3,
+            "skill_1": "毒伤害强化",
+            "skill_1_level": 1,
+            "skill_2": "防御性能",
+            "skill_2_level": 1
+        },
+        {
+            "name": "强壁·属强珠【3】",
+            "type": "weapon",
+            "level": 3,
+            "skill_1": "防御强化",
+            "skill_1_level": 3,
+            "skill_2": "属性强化",
+            "skill_2_level": 1
+        },
+        {
+            "name": "强壁·铁壁珠【3】",
+            "type": "weapon",
+            "level": 3,
+            "skill_1": "防御强化",
+            "skill_1_level": 3,
+            "skill_2": "防御性能",
+            "skill_2_level": 1
+        },
+        {
+            "name": "攻击珠Ⅲ【3】",
+            "type": "weapon",
+            "level": 3,
+            "skill_1": "攻击",
+            "skill_1_level": 3,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "守势珠Ⅲ【3】",
+            "type": "weapon",
+            "level": 3,
+            "skill_1": "攻击守势",
+            "skill_1_level": 3,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "看破珠Ⅲ【3】",
+            "type": "weapon",
+            "level": 3,
+            "skill_1": "看破",
+            "skill_1_level": 3,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "超心珠Ⅲ【3】",
+            "type": "weapon",
+            "level": 3,
+            "skill_1": "超会心",
+            "skill_1_level": 3,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "属强珠Ⅲ【3】",
+            "type": "weapon",
+            "level": 3,
+            "skill_1": "属性强化",
+            "skill_1_level": 3,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "属会珠Ⅲ【3】",
+            "type": "weapon",
+            "level": 3,
+            "skill_1": "属性会心",
+            "skill_1_level": 3,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "强弹珠【3】",
+            "type": "weapon",
+            "level": 3,
+            "skill_1": "通常弹强化",
+            "skill_1_level": 1,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "散弹珠【3】",
+            "type": "weapon",
+            "level": 3,
+            "skill_1": "散弹强化",
+            "skill_1_level": 1,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "贯通珠【3】",
+            "type": "weapon",
+            "level": 3,
+            "skill_1": "贯通弹强化",
+            "skill_1_level": 1,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "射法珠Ⅲ【3】",
+            "type": "weapon",
+            "level": 3,
+            "skill_1": "弹道强化",
+            "skill_1_level": 3,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "速射珠【3】",
+            "type": "weapon",
+            "level": 3,
+            "skill_1": "速射强化",
+            "skill_1_level": 1,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "初弹珠Ⅲ【3】",
+            "type": "weapon",
+            "level": 3,
+            "skill_1": "首发迅击",
+            "skill_1_level": 3,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "积弹珠Ⅲ【3】",
+            "type": "weapon",
+            "level": 3,
+            "skill_1": "强四射击",
+            "skill_1_level": 3,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "集中珠Ⅲ【3】",
+            "type": "weapon",
+            "level": 3,
+            "skill_1": "集中",
+            "skill_1_level": 3,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "击晕珠Ⅲ【3】",
+            "type": "weapon",
+            "level": 3,
+            "skill_1": "击晕术",
+            "skill_1_level": 3,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "炮术珠Ⅲ【3】",
+            "type": "weapon",
+            "level": 3,
+            "skill_1": "炮术",
+            "skill_1_level": 3,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "铁壁珠Ⅲ【3】",
+            "type": "weapon",
+            "level": 3,
+            "skill_1": "防御性能",
+            "skill_1_level": 3,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "强壁珠Ⅲ【3】",
+            "type": "weapon",
+            "level": 3,
+            "skill_1": "防御强化",
+            "skill_1_level": 3,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "攻击珠Ⅱ【2】",
+            "type": "weapon",
+            "level": 2,
+            "skill_1": "攻击",
+            "skill_1_level": 2,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "守势珠Ⅱ【2】",
+            "type": "weapon",
+            "level": 2,
+            "skill_1": "攻击守势",
+            "skill_1_level": 2,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "看破珠Ⅱ【2】",
+            "type": "weapon",
+            "level": 2,
+            "skill_1": "看破",
+            "skill_1_level": 2,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "超心珠Ⅱ【2】",
+            "type": "weapon",
+            "level": 2,
+            "skill_1": "超会心",
+            "skill_1_level": 2,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "属强珠Ⅱ【2】",
+            "type": "weapon",
+            "level": 2,
+            "skill_1": "属性强化",
+            "skill_1_level": 2,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "属会珠Ⅱ【2】",
+            "type": "weapon",
+            "level": 2,
+            "skill_1": "属性会心",
+            "skill_1_level": 2,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "射法珠Ⅱ【2】",
+            "type": "weapon",
+            "level": 2,
+            "skill_1": "弹道强化",
+            "skill_1_level": 2,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "初弹珠Ⅱ【2】",
+            "type": "weapon",
+            "level": 2,
+            "skill_1": "首发迅击",
+            "skill_1_level": 2,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "积弹珠Ⅱ【2】",
+            "type": "weapon",
+            "level": 2,
+            "skill_1": "强四射击",
+            "skill_1_level": 2,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "特射珠Ⅱ【2】",
+            "type": "weapon",
+            "level": 2,
+            "skill_1": "特殊射击强化",
+            "skill_1_level": 2,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "集中珠Ⅱ【2】",
+            "type": "weapon",
+            "level": 2,
+            "skill_1": "集中",
+            "skill_1_level": 2,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "击晕珠Ⅱ【2】",
+            "type": "weapon",
+            "level": 2,
+            "skill_1": "击晕术",
+            "skill_1_level": 2,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "炮术珠Ⅱ【2】",
+            "type": "weapon",
+            "level": 2,
+            "skill_1": "炮术",
+            "skill_1_level": 2,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "铁壁珠Ⅱ【2】",
+            "type": "weapon",
+            "level": 2,
+            "skill_1": "防御性能",
+            "skill_1_level": 2,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "防强珠Ⅱ【2】",
+            "type": "weapon",
+            "level": 2,
+            "skill_1": "防御强化",
+            "skill_1_level": 2,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "攻击珠【1】",
+            "type": "weapon",
+            "level": 1,
+            "skill_1": "攻击",
+            "skill_1_level": 1,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "守势珠【1】",
+            "type": "weapon",
+            "level": 1,
+            "skill_1": "攻击守势",
+            "skill_1_level": 1,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "看破珠【1】",
+            "type": "weapon",
+            "level": 1,
+            "skill_1": "看破",
+            "skill_1_level": 1,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "超心珠【1】",
+            "type": "weapon",
+            "level": 1,
+            "skill_1": "超会心",
+            "skill_1_level": 1,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "属强珠【1】",
+            "type": "weapon",
+            "level": 1,
+            "skill_1": "属性强化",
+            "skill_1_level": 1,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "属会珠【1】",
+            "type": "weapon",
+            "level": 1,
+            "skill_1": "属性会心",
+            "skill_1_level": 1,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "射法珠【1】",
+            "type": "weapon",
+            "level": 1,
+            "skill_1": "弹道强化",
+            "skill_1_level": 1,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "初弹珠【1】",
+            "type": "weapon",
+            "level": 1,
+            "skill_1": "首发迅击",
+            "skill_1_level": 1,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "积弹珠【1】",
+            "type": "weapon",
+            "level": 1,
+            "skill_1": "强四射击",
+            "skill_1_level": 1,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "特射珠【1】",
+            "type": "weapon",
+            "level": 1,
+            "skill_1": "特殊射击强化",
+            "skill_1_level": 1,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "集中珠【1】",
+            "type": "weapon",
+            "level": 1,
+            "skill_1": "集中",
+            "skill_1_level": 1,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "击晕珠【1】",
+            "type": "weapon",
+            "level": 1,
+            "skill_1": "击晕术",
+            "skill_1_level": 1,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "炮术珠【1】",
+            "type": "weapon",
+            "level": 1,
+            "skill_1": "炮术",
+            "skill_1_level": 1,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "铁壁珠【1】",
+            "type": "weapon",
+            "level": 1,
+            "skill_1": "防御性能",
+            "skill_1_level": 1,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "痛击珠【3】",
+            "type": "equip",
+            "level": 3,
+            "skill_1": "弱点特效",
+            "skill_1_level": 1,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "连击珠【3】",
+            "type": "equip",
+            "level": 3,
+            "skill_1": "连击",
+            "skill_1_level": 1,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "刺击珠【3】",
+            "type": "equip",
+            "level": 3,
+            "skill_1": "锁刃刺击",
+            "skill_1_level": 1,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "无伤珠【2】",
+            "type": "equip",
+            "level": 2,
+            "skill_1": "无伤",
+            "skill_1_level": 1,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "浑身珠【2】",
+            "type": "equip",
+            "level": 2,
+            "skill_1": "精神抖擞",
+            "skill_1_level": 1,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "挑战珠【3】",
+            "type": "equip",
+            "level": 3,
+            "skill_1": "挑战者",
+            "skill_1_level": 1,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "逆上珠【2】",
+            "type": "equip",
+            "level": 2,
+            "skill_1": "怨恨",
+            "skill_1_level": 1,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "全开珠【3】",
+            "type": "equip",
+            "level":3,
+            "skill_1": "力量解放",
+            "skill_1_level": 1,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "攻势珠【3】",
+            "type": "equip",
+            "level": 3,
+            "skill_1": "攻势",
+            "skill_1_level": 1,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "反攻珠【3】",
+            "type": "equip",
+            "level": 3,
+            "skill_1": "巧击",
+            "skill_1_level": 1,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "抗狂珠【1】",
+            "type": "equip",
+            "level": 1,
+            "skill_1": "无我之境",
+            "skill_1_level": 1,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "逆袭珠【2】",
+            "type": "equip",
+            "level": 2,
+            "skill_1": "逆袭",
+            "skill_1_level": 1,
+            "skill_2": null,
+            "skill_2_level": null
+        },
+        {
+            "name": "急袭珠【2】",
+            "type": "equip",
+            "level": 2,
+            "skill_1": "急袭",
+            "skill_1_level": 1,
+            "skill_2": null,
+            "skill_2_level": null
+        }
+    ]
+}

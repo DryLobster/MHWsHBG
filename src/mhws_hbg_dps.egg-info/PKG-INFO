@@ -1,0 +1,10 @@
+Metadata-Version: 2.2
+Name: mhws-hbg-dps
+Version: 0.1.0
+Summary: 怪物猎人荒野重弩枪伤害计算与宝珠配装最优解计算工具
+Author: DepressedAlchemist
+License: MIT
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: flet<0.28.0,>=0.27.1
+Requires-Dist: pandas>=2.0

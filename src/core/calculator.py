@@ -175,15 +175,23 @@ class DamageCalculator:
             + self.ammo.physical_mv_add.get(level, 0)
         )
         # 修改后（正确）：
-        elem_mv = (
-            (
-                self.ammo.element_mv * self.ammo.element_mv_multiplier.get(level, 1.0)
-            )
+        elem_basic = self.ammo.element_mv * self.ammo.element_mv_multiplier.get(level, 1.0)
+        elem_limit = elem_basic * 1.9
+
+        elem_mv = ( elem_basic
             * math.prod(1 + m for m in self.character.element_multipliers)  # 使用数学乘积
         )
         if elem_mv > 0:
             elem_mv += self.ammo.element_mv_add.get(level, 0)
-            elem_mv += sum(self.character.element_additions)  # 确保加法在最后
+            
+            elem_add = sum(self.character.element_additions)
+            if elem_add > 35:
+                elem_add = 35
+
+            elem_mv += elem_add # 确保加法在最后
+
+            if elem_mv > elem_limit:
+                elem_mv = elem_limit
 
         # 肉质处理
         phys_hitzone = 100 if self.ammo.ignore_hitzone else self.monster.physical_hitzone

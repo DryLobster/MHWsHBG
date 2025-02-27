@@ -74,6 +74,7 @@ def create_effect(effect_data: dict) -> SkillEffect:
         'Virus': VirusEffect,
         'Muga': MugaEffect,
         'ChainBlade': ChainBladeEffect,
+        'Coalescence': CoalescenceEffect,
         # 其他效果类...
     }
     
@@ -352,9 +353,21 @@ class VirusEffect(SkillEffect):
             }
         if (character.virus == "2"):
             return {
-                'attack_additions': self.attack_2
+                'attack_additions': self.attack_2,
+                'affinity_buffs': 15
             }
         return {}
+class CoalescenceEffect(SkillEffect):
+    """因祸得福强化效果"""
+    def __init__(self, element_boost: float):
+        self.element_boost = element_boost
+        
+    def apply_effect(self, character, context):
+        coverage = character.coverage_rates.get(self.skill_name, 1.0)  # 需要关联技能名
+
+        return {
+            'element_multipliers': self.element_boost * coverage
+        }
     
 class ConditionalEffect(SkillEffect):
     """条件触发效果基类"""

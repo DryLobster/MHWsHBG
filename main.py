@@ -992,7 +992,7 @@ class MHWCalculator(ft.Column):
         )
 
 def main(page: ft.Page):
-    page.title = "MHWs超级弩枪计算器v0.1.0"
+    page.title = "MHWs超级弩枪计算器v0.1.1"
     #page.window_icon = "assets/iconHBG.ico"
     page.window_width = 1080
     page.window_height = 1920

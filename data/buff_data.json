@@ -71,18 +71,8 @@
         }
       },
       {
-        "name": "战吼Ⅰ",
-        "category": "队友增益",
-        "description": "+10攻击力",
-        "effect": {
-          "type": "BuffAttackBoost",
-          "multiplier": 0.0,
-          "addition": 10
-        }
-      },
-      {
         "name": "战吼Ⅱ",
-        "category": "队友增益",
+        "category": "其他增益",
         "description": "+20攻击力",
         "effect": {
           "type": "BuffAttackBoost",
@@ -91,8 +81,8 @@
         }
       },
       {
-        "name": "激励",
-        "category": "队友增益",
+        "name": "战吼Ⅰ",
+        "category": "其他增益",
         "description": "+10攻击力",
         "effect": {
           "type": "BuffAttackBoost",
@@ -101,13 +91,33 @@
         }
       },
       {
-        "name": "蛮勇的餐桌Ⅰ",
-        "category": "消耗品", 
-        "description": "+15攻击力",
+        "name": "激励",
+        "category": "其他增益",
+        "description": "+10攻击力",
         "effect": {
           "type": "BuffAttackBoost",
           "multiplier": 0.0,
-          "addition": 15
+          "addition": 10
+        }
+      },
+      {
+        "name": "不屈×2",
+        "category": "其他增益",
+        "description": "1.2倍攻击力",
+        "effect": {
+          "type": "BuffAttackBoost",
+          "multiplier": 1.2,
+          "addition": 0
+        }
+      },
+      {
+        "name": "不屈×1",
+        "category": "其他增益",
+        "description": "1.1倍攻击力",
+        "effect": {
+          "type": "BuffAttackBoost",
+          "multiplier": 1.1,
+          "addition": 0
         }
       },
       {
@@ -118,6 +128,16 @@
           "type": "BuffAttackBoost",
           "multiplier": 0.0,
           "addition": 25
+        }
+      },
+      {
+        "name": "蛮勇的餐桌Ⅰ",
+        "category": "消耗品", 
+        "description": "+15攻击力",
+        "effect": {
+          "type": "BuffAttackBoost",
+          "multiplier": 0.0,
+          "addition": 15
         }
       }
     ]

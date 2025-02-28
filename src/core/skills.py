@@ -256,7 +256,7 @@ class ArtilleryEffect(SkillEffect):
 class FirstShotEffect(SkillEffect):
     """首发射击强化效果"""
     def __init__(self, reload_boost: int, physical_boost: float, element_boost: float):
-        self.reload_boost = reload_boost
+        self.reload_boost = reload_boost * 0.05
         self.physical_boost = physical_boost
         self.element_boost = element_boost
         
@@ -347,11 +347,11 @@ class VirusEffect(SkillEffect):
     def apply_effect(self, character, context):
 
         # 类型匹配时应用加成
-        if (character.virus == "1"):
+        if (character.virus == 1):
             return {
                 'attack_additions': self.attack_1
             }
-        if (character.virus == "2"):
+        if (character.virus == 2):
             return {
                 'attack_additions': self.attack_2,
                 'affinity_buffs': 15

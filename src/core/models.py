@@ -220,12 +220,12 @@ class Character:
 
 
 class Weapon:
-    def __init__(self, name, base_attack, affinity, reload_level, weapon_type="heavy_bowgun"):
+    def __init__(self, name, base_attack, affinity, weapon_type="heavy_bowgun"):
         self.name = name
         self.base_attack = base_attack  # 应包含武器基础+客制化加成
         self.affinity = affinity        # 会心率(-30表示-30%)
         self.weapon_type = weapon_type  # 新增武器类型标识
-        self.reload_level = reload_level  # 新增武器重载等级
+        #self.reload_level = reload_level  # 新增武器重载等级
         
         self.bowgun_type:int
 

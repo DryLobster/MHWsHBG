@@ -77,10 +77,13 @@ class DamageCalculator:
         }
     
     def calculate_fire_time(self):
-        weapon_reload = self.weapon.reload_level
+
+        ammo_reload_multiplier = 1.0 + sum(self.character.reload_reduces)
+        #weapon_reload = self.weapon.reload_level
         ammo_reload = self.ammo.reload_level
 
-        all_reload = 5 - weapon_reload + ammo_reload
+        #all_reload = 5 - weapon_reload + ammo_reload
+        all_reload = ammo_reload
         if all_reload > 3:
             all_reload = 3
 
@@ -95,7 +98,7 @@ class DamageCalculator:
 
         magazine = self.character.magazine
 
-        whole_time = magazine * recoil_interval + reload_time
+        whole_time = magazine * recoil_interval + reload_time / ammo_reload_multiplier
 
         return whole_time / magazine
     

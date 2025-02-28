@@ -6,7 +6,7 @@ class WeaponParameterSection(ft.Column):
                  attack_field,
                  affinity_field,
                  bowgun_type,
-                 reload_slider,
+                 #reload_slider,
                  magazine_slider,
                  bullet_position):
         super().__init__(spacing=12)
@@ -21,8 +21,8 @@ class WeaponParameterSection(ft.Column):
         
         # 弹药相关参数列
         ammo_col = ft.Column([
-            ft.Text("装填等级"),
-            reload_slider,
+            #ft.Text("装填等级"),
+            #reload_slider,
             ft.Text("弹匣容量"),
             magazine_slider,
             ft.Text("子弹位置"),

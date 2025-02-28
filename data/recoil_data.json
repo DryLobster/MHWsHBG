@@ -23,6 +23,18 @@
         "name": "特大",
         "normal": 1.8,
         "rapid": 1.5
+      },
+      {
+        "id": 4,
+        "name": "迫击",
+        "normal": 1.8,
+        "rapid": 1.5
+      },
+      {
+        "id": 5,
+        "name": "龙击",
+        "normal": 1.8,
+        "rapid": 1.5
       }
     ]
   }

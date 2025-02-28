@@ -91,7 +91,7 @@ class MHWCalculator(ft.Column):
             self.attack_field,
             self.affinity_field,
             self.bowgun_type,
-            self.reload_slider,
+            #self.reload_slider,
             self.magazine_slider,
             self.bullet_position
         )
@@ -258,12 +258,12 @@ class MHWCalculator(ft.Column):
         )
         #* ======弹匣相关======
         self.magazine_slider = ft.Slider(
-            min=1, max=7, value=3, divisions=6,
+            min=1, max=8, value=3, divisions=6,
             label="弹匣容量 {value}",
             on_change=self.update_bullet_position
         )
         self.bullet_position = ft.Slider(
-            min=1, max=7, value=1, divisions= 6,
+            min=1, max=8, value=1, divisions= 6,
             label="第{value}颗"
         )
         #! ======零件相关======
@@ -636,6 +636,14 @@ class MHWCalculator(ft.Column):
         self.update_ammo_display()
     
     def update_bullet_position(self, e):
+        if int(self.magazine_slider.value) == 1:
+            self.bullet_position.value = 1
+            self.bullet_position.disabled = True
+            self.update()
+            return
+        else:
+            self.bullet_position.disabled = False
+
         if int(self.bullet_position.value) > int(self.magazine_slider.value):
             self.bullet_position.value = int(self.magazine_slider.value)
         self.bullet_position.max = int(self.magazine_slider.value)
@@ -719,7 +727,7 @@ class MHWCalculator(ft.Column):
                 name="自定义弩枪",
                 base_attack=int(self.attack_field.value),
                 affinity=int(self.affinity_field.value),
-                reload_level=int(self.reload_slider.value),
+                #reload_level=int(self.reload_slider.value),
                 weapon_type="heavy_bowgun"
             )
             # 在武器实例化后设置值
@@ -877,7 +885,7 @@ class MHWCalculator(ft.Column):
                 name="自定义弩枪",
                 base_attack=int(self.attack_field.value),
                 affinity=int(self.affinity_field.value),
-                reload_level=int(self.reload_slider.value),
+                #reload_level=int(self.reload_slider.value),
                 weapon_type="heavy_bowgun"
             )
             # 在武器实例化后设置值
@@ -923,6 +931,7 @@ class MHWCalculator(ft.Column):
             character.set_coverages(self.state.coverages)
 
             self.optimize_btn.text = "重弩祈祷中..."
+            self.optimize_btn.disabled = True
             self.update()
             print("开始优化...") # 调试输出
             print(f"武器孔位: {weapon.gem_size_1}, {weapon.gem_size_2}, {weapon.gem_size_3}")
@@ -955,6 +964,7 @@ class MHWCalculator(ft.Column):
         self.optimize_result.controls.clear()
         
         self.optimize_btn.text = "优化配置"
+        self.optimize_btn.disabled = False
 
         for i, combo in enumerate(combos):  # 修改这行
             self.optimize_result.controls.append(
